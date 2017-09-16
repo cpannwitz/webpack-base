@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./../fonts/OpenSans-Regular.ttf') format('ttf');
+}
+
+body {
+  color: hsl(235,35%,40%);
+  background: hsl(235, 2%, 95%);
+  font-family: OpenSans;
+}
+
+.image {
+  width: 430px;
+  height: 160px;
+  background: url('./../images/LaRaSch Event-Map.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.icon {
+  width: 300px;
+  height: 160px;
+  background: url('./../icons/stonehead-line.svg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
